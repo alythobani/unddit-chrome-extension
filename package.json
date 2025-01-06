@@ -1,15 +1,25 @@
 {
+  "name": "unddit-chrome-extension",
+  "version": "1.0.0",
+  "author": "alythobani",
+  "license": "GPL-3.0-only",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/chrome": "^0.0.290",
     "@types/node": "^22.10.5",
+    "@types/webpack": "^5.28.5",
     "chrome-types": "^0.1.329",
+    "copy-webpack-plugin": "^12.0.2",
     "eslint": "^9.17.0",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.19.1"
+    "typescript-eslint": "^8.19.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   },
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w"
+    "build": "webpack",
+    "watch": "webpack --watch"
   }
 }

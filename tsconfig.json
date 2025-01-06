@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
+    "module": "CommonJS",
+    "target": "ES5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -20,8 +21,7 @@
     "noImplicitOverride": true /* Ensure overriding members in derived classes are marked with an override modifier. */,
     "noPropertyAccessFromIndexSignature": true /* Enforces using indexed accessors for keys declared using an indexed type. */,
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "paths": {
       "@/*": ["./src/*"]
