@@ -4,8 +4,9 @@ A simple Chrome extension that allows you to view deleted Reddit posts and comme
 
 ## Features
 
-- Redirects Reddit pages to undelete.pullpush.io with a single click or keyboard shortcut (highly recommended to [set shortcuts](chrome://extensions/shortcuts) for your favorite extensions).
-- Works only on Reddit pages; remains inactive elsewhere.
+- Redirects Reddit pages to undelete.pullpush.io with a single click or keyboard shortcut
+  - I highly recommend setting shortcuts for your favorite extensions in general: chrome://extensions/shortcuts (I'm using a plaintext link here since chrome hyperlinks aren't allowed)
+- Works only on Reddit pages; remains inactive elsewhere
 
 ## Feedback
 
