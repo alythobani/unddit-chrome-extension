@@ -3,12 +3,13 @@
   "name": "Unddit (Undelete Reddit)",
   "description": "Opens the current Reddit page on undelete.pullpush.io to view deleted content.",
   "version": "1.0.0",
-  "permissions": ["activeTab"],
+  "permissions": ["declarativeContent"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Unddit (Undelete Reddit)",
+    "default_title": "Open in Unddit",
+    "default_state": "disabled",
     "default_icon": {
       "16": "assets/icon16.png",
       "32": "assets/icon32.png",
