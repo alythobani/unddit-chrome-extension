@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Unddit (Undelete Reddit)",
-  "description": "Opens the current Reddit page on undelete.pullpush.io to view deleted content.",
+  "description": "Opens the current Reddit page on undelete.pullpush.io to view deleted posts and comments.",
   "version": "1.0.0",
   "permissions": ["declarativeContent"],
   "background": {

@@ -4,6 +4,9 @@ import type webpack from "webpack";
 
 const config: webpack.Configuration = {
   mode: "production",
+  optimization: {
+    minimize: false,
+  },
   entry: {
     background: "./src/background.ts",
   },
