@@ -1,5 +1,7 @@
 # Unddit (Undelete Reddit)
 
+[Unddit (Undelete Reddit) - Chrome Web Store](https://chromewebstore.google.com/detail/unddit-undelete-reddit/plngimepingckhjjnfoieachhfdlikfj)
+
 A simple Chrome extension that allows you to view deleted Reddit posts and comments by opening the current Reddit page in `undelete.pullpush.io`. Most credit goes to the creators of the [PullPush Reddit API](https://pullpush.io/), [Pushshift](https://pushshift.io/), and [Unddit](https://undelete.pullpush.io/) itself.
 
 ## Features
